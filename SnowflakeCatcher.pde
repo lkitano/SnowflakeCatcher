@@ -7,7 +7,7 @@ void setup()
   frameRate(60);
   background(0);
   size(400,400);
-  snowFall = new Snowflake[550];
+  snowFall = new Snowflake[250];
   for(int i = 0; i < snowFall.length; i++){
       snowFall[i] = new Snowflake();
   }
